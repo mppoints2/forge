@@ -2073,8 +2073,21 @@ public class GameAction {
                 } else {
                     p1.drawCards(p1.getStartingHandSize());
                 }
+                boolean multipleHands = false;
 
                 // If pl has Backup Plan as a Conspiracy draw that many extra hands
+                for(PlayerZone extraHand : p1.getExtraZones()) {
+                    if (extraHand.getZoneType() == ZoneType.Hand) {
+                        p1.drawCards(7, extraHand);
+                        multipleHands = true;
+                    }
+                    // How do i render extra hands for UI players?
+                }
+
+                if (multipleHands) {
+                    // Choose one of the starting hands and recycle the rest
+
+                }
             }
 
             // Choose starting hand for each player with multiple hands

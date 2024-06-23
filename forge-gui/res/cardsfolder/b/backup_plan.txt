@@ -1,0 +1,8 @@
+Name:Backup Plan
+Types:Conspiracy
+K:MayEffectFromOpeningDeck:DBReveal
+
+Oracle: (Start the game with this conspiracy face up in the command zone.)\nDraw an additional hand of seven cards as the game begins. Before taking mulligans, shuffle all but one of your hands into your library.
+(Start the game with this conspiracy face up in the command zone.)
+
+Draw an additional hand of seven cards as the game begins. Before taking mulligans, shuffle all but one of your hands into your library.
